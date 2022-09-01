@@ -1,0 +1,59 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background: url("./images/lightbowl-header-img.jpeg") top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+}
+
+.header__title {
+  color: rgb(210, 157, 23);
+  margin-left: 1rem;
+  text-shadow: 0 0 4px black, 0 0 6px black;
+}
+
+.home-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem 0;
+  background-color:rgb(210, 157, 23, 0.3);
+}
+
+ul {
+  padding: 1rem 10rem;
+}
+
+li {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.3rem 0;
+}
+
+.question--block {
+  border: 1px solid black;
+  margin: 1rem 10%;
+  border-radius: 1rem;
+  padding-bottom: 1rem;
+}
+
+.submit--button {
+  width: 10rem;
+}
+
+.App-footer {
+  background-color: rgb(210, 157, 23, 0.3);
+  height: 7vh;
+}
+
+.footer__title {
+  text-align: right;
+  padding: 1rem;
+  color: black;
+}
